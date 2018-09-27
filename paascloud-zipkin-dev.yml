@@ -15,7 +15,7 @@ zipkin:
       addresses: paascloud-mq-rabbit:5672
       username: test
       password: test
-      queue: zipkin
+      queue: /
   storage:
     type: mysql
 
